@@ -1,0 +1,26 @@
+.Header{
+   background: rgb(43, 61, 99);
+   width: 98%;
+   margin: 0 auto;
+   margin-top: 3px;
+   border-radius: 10px;
+   height: 49.5vh;
+   display: grid;
+   align-items: start;
+   row-gap: 10px;
+}
+@media (min-width:700px) and (max-width:760px){
+   .Header{
+      height: 50vh;
+   }
+}
+@media (min-width:768px){
+   .Header{
+      height: 30vh;
+   }
+}
+@media (min-width:1024px){
+   .Header{
+      height: 49vh;
+   }
+}

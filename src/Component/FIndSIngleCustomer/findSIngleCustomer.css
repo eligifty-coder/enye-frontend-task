@@ -1,0 +1,22 @@
+.Modal{
+   position: absolute;
+   z-index: 500;
+   background-color: #fff;
+   width: 80%;
+   max-width: 90%;
+   height: 100vh;
+   margin: 0 auto;
+   display: grid;
+   top: 50%;
+   left: 10%;
+   overflow: scroll;
+
+}
+.Backdrop{
+   height: 100vh;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: red;
+}

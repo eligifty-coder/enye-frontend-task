@@ -1,0 +1,12 @@
+.Customers{
+   width: 100%;
+   max-width: 90%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(367px, 1fr));
+   /* place-items: center; */
+   row-gap: 30px;
+   column-gap: 15px;
+   position: relative;
+   z-index: 100;
+}

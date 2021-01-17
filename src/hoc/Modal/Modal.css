@@ -1,0 +1,14 @@
+.Modal{
+   position: absolute;
+   z-index: 500;
+   background-color: #fff;
+   width: 80%;
+   max-width: 90%;
+   height: 100vh;
+   margin: 0 auto;
+   display: grid;
+   top: 50%;
+   left: 10%;
+   overflow: scroll;
+
+}

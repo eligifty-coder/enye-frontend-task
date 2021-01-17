@@ -1,0 +1,122 @@
+.PatientProfileBuilder{
+   background: rgb(56, 203, 137, .3);
+   width: 98%;
+   max-width: 98%;
+   margin: 0 auto;
+   margin-top: 3px;
+   display: grid;
+   grid-template-columns: 1fr;
+   row-gap: 30px;
+   border-radius: 10px;
+   min-height: 100vh;
+}
+.title{
+   width: 100%;
+   max-width: 90%;
+   margin: 0 auto;
+   display: grid;
+   place-items: center;
+}
+.filterSelect{
+   width: 100%;
+   max-width: 90%;
+   margin: 0 auto;
+}
+.title h1{
+   width: 100%;
+   padding: 40px 0;
+   line-height: 50px;
+}
+.Btn{
+   width: 100%;
+   max-width: 90%;
+   margin: 0 auto;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 30px;
+   padding-bottom: 50px;
+}
+@media (min-width:700px) and (max-width:1000px){
+   .title{
+      align-items: center;
+      
+      justify-items: start;
+   }
+   .title h1{
+      width: 97%;
+      padding: 55px 0;
+      font-size: 2.5rem;
+      margin-top: 30px;
+   }
+}
+@media (min-width:1024px){
+   .title{
+      align-items: center;
+      justify-items: start;
+      height: 190px;
+   }
+   .title h1{
+      width: 70%;
+   }
+}
+.FilterPage{
+   outline: none;
+   border:none;
+   padding:10px 15px;
+   box-shadow:2px 2px 5px #ccc;
+   cursor: pointer;
+   width: 150px;
+   justify-self: start;
+   align-self: center;
+}
+.Inputdiv{
+   width: 100%;
+}
+.inputs{
+   outline: none;
+   border:none;
+   padding:10px 15px;
+   box-shadow:2px 2px 5px #ccc;
+   cursor: pointer;
+   width: 60%;
+   font-size: 18px;
+   color: #000;
+   justify-self: end;
+   align-self: center;
+}
+.Inputdiv button{
+   outline: none;
+   border:none;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   color:  rgb(56, 203, 137);
+   cursor: pointer;
+   box-shadow:2px 2px 5px #ccc;
+}
+.Inputdiv button:hover{
+   color: #000;
+}
+.inputs::placeholder{
+   font-size: 11px;
+}
+.FilterPage:hover{
+   background: #fff;
+   opacity: .7;
+}
+.filterCustomer{
+   min-height: 100vh;
+   
+}
+.filterSelect{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 8px;
+}
+/* .positioned{
+   position: absolute;
+   z-index: 500;
+} */

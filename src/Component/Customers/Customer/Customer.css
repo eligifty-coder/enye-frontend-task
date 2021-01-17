@@ -1,0 +1,59 @@
+article{
+   background: #fff;
+   padding: 20px;
+   border-radius: 40px;
+   box-shadow: 0 2px 3px #ccc;
+   width: 90%;
+   margin: 0 auto;
+   display: grid;
+   row-gap: 10px;
+   grid-template-columns: 1fr;
+   justify-self: center;
+ 
+
+}
+.Img{
+   width: 50px;
+   height: 50px;
+}
+.Img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.Names{
+   display: grid;
+   grid-template-columns: auto 1fr;
+   column-gap: 10px;
+}
+.Names h4{
+   justify-self: start;
+   align-self: center;
+   font-size: 22px;
+   width: 40%;
+}
+a{
+   text-decoration: none;
+   color:  rgb(56, 203, 137);
+   transition: all .3s ease;
+}
+
+.Phone, .Card, .Login, .Username{
+   display: grid;
+   grid-template-columns: auto 1fr;
+   align-items: center;
+   font-size: 16px;
+}
+.Phone a, .Card h5, .Login h5, .Username h5{
+   justify-self: end;
+}
+ .Phone a:hover{
+   color:  rgb(56, 203, 137, .6);
+}
+.EmailPhone, .CardDetail, .Logins, .User{
+   display: grid;
+   grid-template-columns: 1fr;
+   row-gap: 10px;
+   align-items: center;
+}
